@@ -1,0 +1,33 @@
+
+.about {
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem 0;
+    padding: 0 3rem;
+}
+
+.box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.box img {
+    max-width: 50%;
+    max-height: 70rem;
+    margin: 0 5rem;
+}
+
+.box p {
+    font-size: 3.5rem;
+    width: 50%;
+}
+
